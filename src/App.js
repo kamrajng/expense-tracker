@@ -7,9 +7,9 @@ import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 
 
 const App =() => {
-  const [positive, setPositive]= React.useState('')
-  const [negetive, setNegetive]= React.useState('')
-  const [balance, setBalance]= React.useState('')
+  // const [positive, setPositive]= React.useState('')
+  // const [negetive, setNegetive]= React.useState('')
+  // const [balance, setBalance]= React.useState('')
 
   // const [search, setSearch]=React.useState('')
   //   const [loop, setLoop]=React.useState(table)
