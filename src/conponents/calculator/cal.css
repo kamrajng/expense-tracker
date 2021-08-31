@@ -1,0 +1,105 @@
+.calculator{
+    width: 260px;
+    height: 470px;
+    background-color: darkblue;
+    padding: 10px;
+}
+.calculator >h1{
+   
+    text-align: center;
+    border: none;
+    color: whitesmoke;
+   
+ }
+
+.display{
+    margin-top: 10px;
+    text-align: right;
+   background-color: rgba(128, 128, 128, 0.438);
+   padding: 5px;
+}
+.display >h2{
+   margin-top: 10px;
+   text-align: right;
+   border: none;
+   color: whitesmoke;
+   font-size: 20px;
+  
+}
+.display >input{
+   background-color: transparent;
+   border: none;
+   width: 100%;
+   justify-content: left;
+   align-items: left;
+   text-align: left;
+   border: none;
+   color: turquoise;
+   font-size: 12px;
+   word-wrap:break-word;
+  
+}
+.selectfa{
+    margin-left: 180px ;
+    align-items: center;
+    text-align: center;
+}
+.selectfa :hover{
+    cursor: pointer;
+}
+.calculator > p{
+   color:whitesmoke;
+   text-align: left;
+   cursor: pointer;
+}
+.calculator > p:hover{
+    border: rgb(5, 5, 5);
+    background-color: rgba(252, 6, 6,);
+    color: turquoise;
+    font-weight: 700;
+}
+.nands{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-top: 5%
+}
+.number{
+    background-color:rgba(18, 18, 228, 0.479);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.number >button{
+    border: none;
+    background-color: transparent;
+    color: whitesmoke;
+    margin: 15px;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.number > button:hover{
+    border-radius: 180px;
+    background-color: rgba(128, 128, 128, 0.438);
+    
+}
+.sign{
+    background-color:rgba(128, 128, 128, 0.438);
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.sign >button{
+    border: none;
+    background-color: transparent;
+    color: turquoise;
+    margin: 15px;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.sign > button:hover{
+    border-radius: 45px;
+    background-color: rgba(18, 18, 228, 0.479);
+    
+}

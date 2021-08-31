@@ -1,0 +1,16 @@
+.card{
+    background-color: whitesmoke;
+    text-align: center;
+   width: 250px ;
+   line-height: 0.5;
+   border: 1px solid rebeccapurple;
+}
+.Positive >h1 {
+    color: green;
+}
+.Balance >h1 {
+    color: orange;
+}
+.Negetive >h1 {
+    color: red;
+}

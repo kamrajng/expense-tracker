@@ -1,0 +1,98 @@
+.generaltable{
+    border: 1px solid black;
+    margin: 20px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: orange;
+    border: 1px solid orange;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px;
+    padding: 0 20px ;
+}
+.select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.selectbi{
+    border: 1px solid black;
+    border-radius: 45px;
+    font-size: 25px;
+    margin-left: 10px;
+    padding: 10px;
+} 
+.select > select{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.headBody{
+    border: 1px solid black;
+    margin: 0 30px 30px 30px;
+}
+.tablehead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding: 0 10px;
+    background-color: whitesmoke;
+    height: 40px;
+    
+}
+.tablehead >h4{
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+.tablebody{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding: 0 10px;
+    height: 40px;
+
+}
+
+
+.tablebody >p{
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+.date{
+    display: flex;
+    flex: 2;
+    justify-content: flex-end;
+    height: 100%;
+    border-right: 1px solid black;
+}
+.description{
+    display: flex;
+    flex: 5;
+    justify-content: flex-start;
+    height: 100%;
+    border-right: 1px solid black;
+}
+.category{
+    display: flex;
+    flex: 3.5;
+    justify-content: flex-start;
+    height: 100%;
+    border-right: 1px solid black;
+}
+.amount{
+    display: flex;
+    flex:2.5;
+    justify-content: flex-end;
+    height: 100%; 
+    
+}

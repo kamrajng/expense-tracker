@@ -1,0 +1,38 @@
+.navbar{
+    background-color:orange;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+  
+}
+.navbar > h2{
+    margin-left: 20px;
+}
+.navbar >.navgi{
+    font-size: 50px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    width: 500px;
+    height: 50px;
+   
+}
+.search> input{
+    width: 80%;
+    height: 50%;
+    border:none;
+    color: orange;
+}
+.search> button{
+    height: 30px;
+    font-size: 20px;
+    padding: 2px;
+    border:none;
+    background-color: transparent;
+    color: whitesmoke;
+}
